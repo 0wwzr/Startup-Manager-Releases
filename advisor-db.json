@@ -1,0 +1,376 @@
+{
+  "version": 3,
+  "updated": "2026-08-24",
+  "entries": {
+    "explorer.exe": {
+      "d": "The Windows shell - draws your desktop, taskbar and Start menu. Disabling it will break the desktop.",
+      "dd": "Die Windows-Shell - zeichnet Desktop, Taskleiste und Startmenue. Eine Deaktivierung wuerde den Desktop unbrauchbar machen.",
+      "a": "keep"
+    },
+    "svchost.exe": {
+      "d": "Hosts internal Windows services. Many essential system functions run inside this process.",
+      "dd": "Beherbergt interne Windows-Dienste. Viele lebenswichtige Systemfunktionen laufen in diesem Prozess.",
+      "a": "keep"
+    },
+    "dwm.exe": {
+      "d": "Desktop Window Manager - renders window compositing, transparency and visual effects.",
+      "dd": "Desktop Window Manager - rendert Fensterverwaltung, Transparenz und visuelle Effekte.",
+      "a": "keep"
+    },
+    "runtimebroker.exe": {
+      "d": "Broker for Microsoft Store app permissions. Lightweight and required for modern apps.",
+      "dd": "Vermittler fuer Berechtigungen von Microsoft-Store-Apps. Schlank und fuer moderne Apps erforderlich.",
+      "a": "keep"
+    },
+    "ctfmon.exe": {
+      "d": "Handles text input services: language bar, touch keyboard, handwriting and dictation.",
+      "dd": "Verarbeitet Texteingabedienste: Sprachleiste, Touch-Tastatur, Handschrift und Diktat.",
+      "a": "keep"
+    },
+    "searchhost.exe": {
+      "d": "Windows Search user interface - powers the search results in the Start menu.",
+      "dd": "Oberflaeche der Windows-Suche - liefert die Suchergebnisse im Startmenue.",
+      "a": "optional"
+    },
+    "searchapp.exe": {
+      "d": "Windows Search user interface - powers the search results in the Start menu.",
+      "dd": "Oberflaeche der Windows-Suche - liefert die Suchergebnisse im Startmenue.",
+      "a": "optional"
+    },
+    "widgets.exe": {
+      "d": "Windows Widgets board - news and weather feed that slides out from the taskbar.",
+      "dd": "Windows-Widgets-Board - Nachrichten- und Wetter-Feed aus der Taskleiste.",
+      "a": "optional"
+    },
+    "widgetservice.exe": {
+      "d": "Backend service for the Windows Widgets board.",
+      "dd": "Backdienst fuer das Windows-Widgets-Board.",
+      "a": "optional"
+    },
+    "phoneexperiencehost.exe": {
+      "d": "Phone Link - connects your Android phone or iPhone for messages, calls and photos.",
+      "dd": "Phone Link - verbindet Android-Smartphone oder iPhone fuer Nachrichten, Anrufe und Fotos.",
+      "a": "optional"
+    },
+    "yourphone.exe": {
+      "d": "Older name of Phone Link - connects your smartphone to Windows.",
+      "dd": "Aelterer Name von Phone Link - verbindet das Smartphone mit Windows.",
+      "a": "optional"
+    },
+    "securityhealthsystray.exe": {
+      "d": "Windows Security tray icon - shows Windows Defender status.",
+      "dd": "Symbol der Windows-Sicherheit im Infobereich - zeigt den Defender-Status.",
+      "a": "keep"
+    },
+    "securityhealthservice.exe": {
+      "d": "Windows Security service that reports Defender status to the UI.",
+      "dd": "Dienst der Windows-Sicherheit, der den Defender-Status an die Oberflaeche meldet.",
+      "a": "keep"
+    },
+    "onedrive.exe": {
+      "d": "Microsoft OneDrive sync client - keeps your documents synced to the cloud. Disable only if you do not use OneDrive.",
+      "dd": "Microsoft-OneDrive-Syncclient - haelt Dokumente mit der Cloud synchron. Nur deaktivieren, wenn OneDrive nicht genutzt wird.",
+      "a": "optional"
+    },
+    "msedgewebview2.exe": {
+      "d": "Edge WebView2 runtime - used by many apps (Teams, Outlook, widgets) to display web content.",
+      "dd": "Edge-WebView2-Laufzeit - wird von vielen Apps (Teams, Outlook, Widgets) zum Anzeigen von Webinhalten genutzt.",
+      "a": "keep"
+    },
+    "microsoftedgeupdate.exe": {
+      "d": "Keeps Microsoft Edge up to date in the background.",
+      "dd": "Haelt Microsoft Edge im Hintergrund aktuell.",
+      "a": "optional"
+    },
+    "edgeupdate.exe": {
+      "d": "Keeps Microsoft Edge up to date in the background.",
+      "dd": "Haelt Microsoft Edge im Hintergrund aktuell.",
+      "a": "optional"
+    },
+    "nvdisplay.container.exe": {
+      "d": "NVIDIA Display Container - runs driver features such as GeForce Experience and ShadowPlay recording.",
+      "dd": "NVIDIA Display Container - stellt Treiberfunktionen wie GeForce Experience und ShadowPlay-Aufnahmen bereit.",
+      "a": "keep"
+    },
+    "nvcontainer.exe": {
+      "d": "NVIDIA container process - runs driver services and telemetry.",
+      "dd": "NVIDIA-Containerprozess - laeuft Treiberdienste und Telemetrie.",
+      "a": "keep"
+    },
+    "rtkauduservice64.exe": {
+      "d": "Realtek Audio Universal Service - audio effects, jack detection and pop-up dialogs.",
+      "dd": "Realtek-Audio-Universaldienst - Klangeffekte, Erkennung angeschlossener Geraete und Hinweisfenster.",
+      "a": "keep"
+    },
+    "rtkngui64.exe": {
+      "d": "Realtek HD Audio Manager tray icon.",
+      "dd": "Realtek-HD-Audio-Manager im Infobereich.",
+      "a": "optional"
+    },
+    "igfxtray.exe": {
+      "d": "Intel Graphics tray icon for quick display settings access.",
+      "dd": "Intel-Grafiksymbol im Infobereich fuer schnelle Anzeigeeinstellungen.",
+      "a": "optional"
+    },
+    "hkcmd.exe": {
+      "d": "Intel graphics hotkey listener (e.g. Ctrl+Alt+F12 rotation shortcuts).",
+      "dd": "Tastenkuerzel-Dienst der Intel-Grafik (z. B. Strg+Alt+F12 zum Drehen des Bildschirms).",
+      "a": "optional"
+    },
+    "igfxpers.exe": {
+      "d": "Intel graphics persistence module - keeps custom display settings after logon.",
+      "dd": "Intel-Grafik-Persistenzmodul - behaelt eigene Anzeigeeinstellungen nach der Anmeldung bei.",
+      "a": "optional"
+    },
+    "syntpenh.exe": {
+      "d": "Synaptics touchpad enhancements - gestures and special buttons on laptops.",
+      "dd": "Synaptics-Touchpad-Erweiterungen - Gesten und Sondertasten auf Laptops.",
+      "a": "keep"
+    },
+    "steam.exe": {
+      "d": "Valve Steam gaming client and library. Only needed at login if you play right away.",
+      "dd": "Valve-Steam-Spieleclient und Bibliothek. Nur noetig, wenn direkt nach dem Start gespielt wird.",
+      "a": "optional"
+    },
+    "epicgameslauncher.exe": {
+      "d": "Epic Games Store launcher.",
+      "dd": "Launcher des Epic Games Stores.",
+      "a": "optional"
+    },
+    "battle.net.exe": {
+      "d": "Blizzard Battle.net desktop app.",
+      "dd": "Blizzard-Battle.net-Desktop-App.",
+      "a": "optional"
+    },
+    "eadesktop.exe": {
+      "d": "EA app (successor of Origin) game launcher.",
+      "dd": "EA-App (Nachfolger von Origin) Spiele-Launcher.",
+      "a": "optional"
+    },
+    "origin.exe": {
+      "d": "Origin game launcher (legacy EA client).",
+      "dd": "Origin-Spiele-Launcher (alter EA-Client).",
+      "a": "optional"
+    },
+    "ubisoftgamelauncher.exe": {
+      "d": "Ubisoft Connect game launcher.",
+      "dd": "Ubisoft-Connect-Spielauncher.",
+      "a": "optional"
+    },
+    "ubisoftgamelauncher64.exe": {
+      "d": "Ubisoft Connect game launcher.",
+      "dd": "Ubisoft-Connect-Spielauncher.",
+      "a": "optional"
+    },
+    "uplay.exe": {
+      "d": "Ubisoft Uplay launcher (legacy).",
+      "dd": "Ubisoft-Uplay-Launcher (veraltet).",
+      "a": "optional"
+    },
+    "galaxyclient.exe": {
+      "d": "GOG Galaxy gaming client.",
+      "dd": "GOG-Galaxy-Spielesoftware.",
+      "a": "optional"
+    },
+    "rockstarservice.exe": {
+      "d": "Rockstar Games Social Club background service.",
+      "dd": "Rockstar-Games-Social-Club-Hintergrunddienst.",
+      "a": "optional"
+    },
+    "discord.exe": {
+      "d": "Discord chat and voice client.",
+      "dd": "Discord-Chat- und Sprachclient.",
+      "a": "optional"
+    },
+    "spotify.exe": {
+      "d": "Spotify music streaming client.",
+      "dd": "Spotify-Musikstreaming-Client.",
+      "a": "optional"
+    },
+    "teams.exe": {
+      "d": "Microsoft Teams chat and meeting client. Safe to disable if you rarely use Teams.",
+      "dd": "Microsoft-Teams-Chat- und Meeting-Client. Kann deaktiviert werden, wenn Teams selten genutzt wird.",
+      "a": "optional"
+    },
+    "ms-teams.exe": {
+      "d": "Microsoft Teams (new client) chat and meetings.",
+      "dd": "Microsoft Teams (neuer Client) Chat und Meetings.",
+      "a": "optional"
+    },
+    "msteams_autostarter.exe": {
+      "d": "Helper that starts Microsoft Teams automatically after login.",
+      "dd": "Hilfsprogramm, das Microsoft Teams nach der Anmeldung automatisch startet.",
+      "a": "optional"
+    },
+    "zoom.exe": {
+      "d": "Zoom video meeting client.",
+      "dd": "Zoom-Videomeeting-Client.",
+      "a": "optional"
+    },
+    "skype.exe": {
+      "d": "Skype messenger and calls client.",
+      "dd": "Skype-Nachrichten- und Anruf-Client.",
+      "a": "optional"
+    },
+    "dropbox.exe": {
+      "d": "Dropbox cloud sync client.",
+      "dd": "Dropbox-Cloud-Syncclient.",
+      "a": "optional"
+    },
+    "googledrivefs.exe": {
+      "d": "Google Drive for desktop - file sync and streaming.",
+      "dd": "Google Drive fuer Desktop - Dateisynchronisierung und Streaming.",
+      "a": "optional"
+    },
+    "icloudservices.exe": {
+      "d": "Apple iCloud services - photos, Drive and password sync.",
+      "dd": "Apple-iCloud-Dienste - Fotos, Drive und Passwort-Synchronisierung.",
+      "a": "optional"
+    },
+    "ituneshelper.exe": {
+      "d": "iTunes helper - speeds up detection of connected iPhones/iPods.",
+      "dd": "iTunes-Hilfsprogramm - erkennt angeschlossene iPhones/iPods schneller.",
+      "a": "optional"
+    },
+    "wallpaperengine.exe": {
+      "d": "Wallpaper Engine - animated wallpapers on the desktop.",
+      "dd": "Wallpaper Engine - animierte Hintergründe auf dem Desktop.",
+      "a": "optional"
+    },
+    "wallpaperengine32.exe": {
+      "d": "Wallpaper Engine - animated wallpapers on the desktop.",
+      "dd": "Wallpaper Engine - animierte Hintergründe auf dem Desktop.",
+      "a": "optional"
+    },
+    "wallpaperengine64.exe": {
+      "d": "Wallpaper Engine - animated wallpapers on the desktop.",
+      "dd": "Wallpaper Engine - animierte Hintergründe auf dem Desktop.",
+      "a": "optional"
+    },
+    "acrotray.exe": {
+      "d": "Adobe Acrobat background helper - integrates PDF creation into printing.",
+      "dd": "Adobe-Acrobat-Hilfsprogramm - integriert die PDF-Erstellung in den Druckdialog.",
+      "a": "optional"
+    },
+    "creativecloud.exe": {
+      "d": "Adobe Creative Cloud desktop app.",
+      "dd": "Adobe-Creative-Cloud-Desktop-App.",
+      "a": "optional"
+    },
+    "ccxprocess.exe": {
+      "d": "Adobe Creative Cloud experience component - content and template feeds.",
+      "dd": "Adobe-Creative-Cloud-Komponente - Inhalte und Vorlagen.",
+      "a": "optional"
+    },
+    "adobecollabsync.exe": {
+      "d": "Adobe Creative Cloud collaboration sync for shared cloud documents.",
+      "dd": "Adobe-Creative-Cloud-Synchronisierung fuer gemeinsame Cloud-Dokumente.",
+      "a": "optional"
+    },
+    "adobe desktop service.exe": {
+      "d": "Core service of the Adobe Creative Cloud desktop app.",
+      "dd": "Kerndienst der Adobe-Creative-Cloud-Desktop-App.",
+      "a": "optional"
+    },
+    "jusched.exe": {
+      "d": "Java Update Scheduler - checks for Java updates in the background.",
+      "dd": "Java-Update-Scheduler - prueft im Hintergrund auf Java-Updates.",
+      "a": "optional"
+    },
+    "googleupdate.exe": {
+      "d": "Google updater - keeps Chrome and related components current.",
+      "dd": "Google-Updater - haelt Chrome und zugehoerige Komponenten aktuell.",
+      "a": "optional"
+    },
+    "ccleaner64.exe": {
+      "d": "CCleaner cleaning utility. Its autostart enables continuous monitoring features.",
+      "dd": "CCleaner-Reinigungsprogramm. Der Autostart aktiviert die Dauerueberwachung.",
+      "a": "optional"
+    },
+    "ccleaner.exe": {
+      "d": "CCleaner cleaning utility. Its autostart enables continuous monitoring features.",
+      "dd": "CCleaner-Reinigungsprogramm. Der Autostart aktiviert die Dauerueberwachung.",
+      "a": "optional"
+    },
+    "malwarebytes.exe": {
+      "d": "Malwarebytes anti-malware protection.",
+      "dd": "Malwarebytes-Schutz vor Schadsoftware.",
+      "a": "keep"
+    },
+    "mbam.exe": {
+      "d": "Malwarebytes anti-malware protection.",
+      "dd": "Malwarebytes-Schutz vor Schadsoftware.",
+      "a": "keep"
+    },
+    "mbamtray.exe": {
+      "d": "Malwarebytes tray icon and quick access.",
+      "dd": "Malwarebytes-Symbol im Infobereich.",
+      "a": "keep"
+    },
+    "avastui.exe": {
+      "d": "Avast antivirus interface and tray.",
+      "dd": "Avast-Antivirus-Oberflaeche und Infobereich.",
+      "a": "keep"
+    },
+    "avgui.exe": {
+      "d": "AVG antivirus interface and tray.",
+      "dd": "AVG-Antivirus-Oberflaeche und Infobereich.",
+      "a": "keep"
+    },
+    "avp.exe": {
+      "d": "Kaspersky antivirus main process.",
+      "dd": "Kaspersky-Antivirus-Hauptprozess.",
+      "a": "keep"
+    },
+    "bdagent.exe": {
+      "d": "Bitdefender security agent.",
+      "dd": "Bitdefender-Sicherheits-Agent.",
+      "a": "keep"
+    },
+    "teamviewer.exe": {
+      "d": "TeamViewer remote access tool. While running, others may connect to this PC if they have credentials. Disable if you do not use remote support.",
+      "dd": "TeamViewer-Fernwartung. Waehrend des Laufs kann mit Zugangsdaten auf diesen PC zugegriffen werden. Deaktivieren, wenn keine Fernwartung genutzt wird.",
+      "a": "caution"
+    },
+    "anydesk.exe": {
+      "d": "AnyDesk remote desktop tool. Allows remote connections to this PC. Disable if you never use remote access.",
+      "dd": "AnyDesk-Fernwartung. Ermoeglicht Fernzugriff auf diesen PC. Deaktivieren, wenn kein Fernzugriff benoetigt wird.",
+      "a": "caution"
+    },
+    "nordvpn.exe": {
+      "d": "NordVPN virtual private network client.",
+      "dd": "NordVPN-Client (virtuelles privates Netzwerk).",
+      "a": "optional"
+    },
+    "expressvpn.exe": {
+      "d": "ExpressVPN virtual private network client.",
+      "dd": "ExpressVPN-Client (virtuelles privates Netzwerk).",
+      "a": "optional"
+    },
+    "openvpn-gui.exe": {
+      "d": "OpenVPN connection manager interface.",
+      "dd": "OpenVPN-Verbindungsverwaltung.",
+      "a": "optional"
+    },
+    "hwinfo64.exe": {
+      "d": "HWiNFO hardware information and monitoring tool.",
+      "dd": "HWiNFO-Hardwareinformationen und -Ueberwachung.",
+      "a": "optional"
+    },
+    "coretemp.exe": {
+      "d": "Core Temp CPU temperature monitor.",
+      "dd": "Core-Temp-CPU-Temperaturueberwachung.",
+      "a": "optional"
+    },
+    "msiafterburner.exe": {
+      "d": "MSI Afterburner - graphics card overclocking and monitoring.",
+      "dd": "MSI Afterburner - Grafikkarten-Uebertaktung und Ueberwachung.",
+      "a": "optional"
+    },
+    "rtss.exe": {
+      "d": "RivaTuner Statistics Server - framerate overlay used together with MSI Afterburner.",
+      "dd": "RivaTuner Statistics Server - FPS-Overlay, meist zusammen mit MSI Afterburner.",
+      "a": "optional"
+    }
+  }
+}
